@@ -402,8 +402,8 @@ msgstr "เว๊ปไซต์ Ripple อยู่ในช่วงปิด�
 msgid "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ripple's staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://support.ripple.moe'>support.ripple.moe</a>."
 msgstr "บัญชีคุณตอนนี้กำลังถูกระงับ! คุณจะไม่สามารถทำอะไรได้และคุณจะถูกเห็นโดยคุณเองและทีมงาน Ripple เท่านั้น! ถ้าคุณรู้สึกว่าเราทำอะไรผิดพลาดไป หรือ หลังจากผ่านไปเดือนนึง คุณสามารถลองขอปลดได้ที่ <a href='https://support.ripple.moe'>support.ripple.moe</a>"
 
-msgid "&copy; 2015-%d Ripple, using Hanayo %s."
-msgstr "&copy; 2015-%d Ripple ใช้ Hanayo เวอร์ชั่น %s"
+msgid "&copy; 2015-%d Ripple, using Gunayo %s."
+msgstr "&copy; 2015-%d Ripple ใช้ Gunayo เวอร์ชั่น %s"
 
 msgid "Team"
 msgstr "ทีมงาน"
@@ -586,8 +586,8 @@ msgstr "ถ้ารู้สึกว่ากลัวว่าเราจะ
 msgid "This is the changelog. Changes are published here as soon as they hit the production status (as in, live on the website)."
 msgstr "นี่คือประวัติการเปลี่ยนแปลง การเปลี่ยนแปลงจะถูกเผยแพร่ที่นี่ทันทีที่เมื่ออยู่ในโหมดสถานะสาธารณะ (เช่นอยู่บนเว็บไซต์นี้ไงละ)"
 
-msgid "For various reasons, some software of Ripple does not contribute to the changelog, to which this website is a part of. In case you want to see the changelog of Hanayo, you can do so by <a href=\"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
-msgstr "ด้วยเหตุผลหลายประการซอฟต์แวร์บางส่วนของ Ripple ไม่ได้มีส่วนร่วมในประวัติการการเปลี่ยนแปลงซึ่งเว็บไซต์นี้เป็นส่วนหนึ่ง ในกรณีที่คุณต้องการเห็นการเปลี่ยนแปลงของ Hanayo คุณสามารถทำได้โดย <a href=\"https://zxq.co/ripple/hanayo/commits/master\">คลิกที่นี่</a>"
+msgid "For various reasons, some software of Ripple does not contribute to the changelog, to which this website is a part of. In case you want to see the changelog of Gunayo, you can do so by <a href=\"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr "ด้วยเหตุผลหลายประการซอฟต์แวร์บางส่วนของ Ripple ไม่ได้มีส่วนร่วมในประวัติการการเปลี่ยนแปลงซึ่งเว็บไซต์นี้เป็นส่วนหนึ่ง ในกรณีที่คุณต้องการเห็นการเปลี่ยนแปลงของ Gunayo คุณสามารถทำได้โดย <a href=\"https://zxq.co/ripple/hanayo/commits/master\">คลิกที่นี่</a>"
 
 msgid "Author"
 msgstr "ผู้จัดทำ"

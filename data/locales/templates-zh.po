@@ -399,8 +399,8 @@ msgstr "Ripple 网站目前处于维护模式。仅允许某些用户访问整�
 msgid "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ripple's staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://support.ripple.moe'>support.ripple.moe</a>."
 msgstr "你的帐户当前处于限制(Restricted)模式。你无法执行某些操作，你的个人资料只能由你和 Ripple 的工作人员查看。如果你认为我们错误地将你封禁，或者自你首次看到此消息以来已经过去了一个月，你可以通过发送邮件至 <a href='https://support.ripple.moe'>support.ripple.moe</a> 来提交上诉。"
 
-msgid "&copy; 2015-%d Ripple, using Hanayo %s."
-msgstr "&copy; 2015-%d Ripple，由 Hanayo %s 强力驱动。"
+msgid "&copy; 2015-%d Ripple, using Gunayo %s."
+msgstr "&copy; 2015-%d Ripple，由 Gunayo %s 强力驱动。"
 
 msgid "Team"
 msgstr "团队"
@@ -582,8 +582,8 @@ msgstr "如果你想确保 Ripple 不会对你的数据做任何可疑的事情�
 msgid "This is the changelog. Changes are published here as soon as they hit the production status (as in, live on the website)."
 msgstr "这里是更新日志。如果修改的内容实装，修改内容马上就会出现在这里（就像网站上显示的一样）。"
 
-msgid "For various reasons, some software of Ripple does not contribute to the changelog, to which this website is a part of. In case you want to see the changelog of Hanayo, you can do so by <a href=\"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
-msgstr "由于各种原因，Ripple 的某些软件未参与变更日志。如果你想查看 Hanayo 的变更日志，请<a href=\"https://zxq.co/ripple/hanayo/commits/master\">点击这里</a>。"
+msgid "For various reasons, some software of Ripple does not contribute to the changelog, to which this website is a part of. In case you want to see the changelog of Gunayo, you can do so by <a href=\"https://zxq.co/ripple/hanayo/commits/master\">clicking here</a>."
+msgstr "由于各种原因，Ripple 的某些软件未参与变更日志。如果你想查看 Gunayo 的变更日志，请<a href=\"https://zxq.co/ripple/hanayo/commits/master\">点击这里</a>。"
 
 msgid "Author"
 msgstr "作者"

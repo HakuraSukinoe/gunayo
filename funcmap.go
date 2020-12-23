@@ -478,7 +478,7 @@ var funcMap = template.FuncMap{
 		}
 		return ieUnfucker
 	},
-	// version gets what's the current Hanayo version.
+	// version gets what's the current Gunayo version.
 	"version": func() string {
 		return version
 	},

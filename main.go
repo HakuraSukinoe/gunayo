@@ -22,12 +22,12 @@ import (
 	"gopkg.in/mailgun/mailgun-go.v1"
 	"gopkg.in/redis.v5"
 	"zxq.co/ripple/agplwarning"
-	"zxq.co/ripple/hanayo/modules/btcaddress"
-	"zxq.co/ripple/hanayo/modules/btcconversions"
-	"zxq.co/ripple/hanayo/routers/oauth"
-	"zxq.co/ripple/hanayo/routers/pagemappings"
-	"zxq.co/ripple/hanayo/services"
-	"zxq.co/ripple/hanayo/services/cieca"
+	"zxq.co/ripple/gunayo/modules/btcaddress"
+	"zxq.co/ripple/gunayo/modules/btcconversions"
+	"zxq.co/ripple/gunayo/routers/oauth"
+	"zxq.co/ripple/gunayo/routers/pagemappings"
+	"zxq.co/ripple/gunayo/services"
+	"zxq.co/ripple/gunayo/services/cieca"
 	schiavo "zxq.co/ripple/schiavolib"
 	"zxq.co/x/rs"
 )
@@ -44,7 +44,7 @@ var (
 		AvatarURL       string
 		BaseURL         string
 		API             string
-		BanchoAPI       string `description:"Bancho base url (without /api) that hanayo will use to contact bancho"`
+		BanchoAPI       string `description:"Bancho base url (without /api) that gunayo will use to contact bancho"`
 		BanchoAPIPublic string `description:"same as above but this will be put in js files and used by clients. Must be publicly accessible. Leave empty to set to BanchoAPI"`
 		CheesegullAPI   string
 		APISecret       string
@@ -104,19 +104,19 @@ var (
 )
 
 func main() {
-	err := agplwarning.Warn("ripple", "Hanayo")
+	err := agplwarning.Warn("ripple", "Gunayo")
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	fmt.Println("hanayo " + version)
+	fmt.Println("gunayo " + version)
 
-	err = conf.Load(&config, "hanayo.conf")
+	err = conf.Load(&config, "gunayo.conf")
 	switch err {
 	case nil:
 		// carry on
 	case conf.ErrNoFile:
-		conf.Export(config, "hanayo.conf")
+		conf.Export(config, "gunayo.conf")
 		fmt.Println("The configuration file was not found. We created one for you.")
 		return
 	default:
@@ -186,7 +186,7 @@ func main() {
 	btcaddress.APISecret = config.CoinbaseAPISecret
 
 	// initialise schiavo
-	schiavo.Prefix = "hanayo"
+	schiavo.Prefix = "gunayo"
 	schiavo.Bunker.Send(fmt.Sprintf("STARTUATO, mode: %s", gin.Mode()))
 
 	// even if it's not release, we say that it's release
@@ -213,7 +213,7 @@ func main() {
 
 	fmt.Println("Exporting configuration...")
 
-	conf.Export(config, "hanayo.conf")
+	conf.Export(config, "gunayo.conf")
 
 	// default BanchoAPIPublic to BanchoAPI if not set
 	// we must do this after exporting the config
